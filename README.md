@@ -18,8 +18,8 @@ project2.2_implementation.ipynb   # all code, sectioned 1–10, with outputs
 requirements.txt
 data/                             # data.npy, images.npz (not committed; see below)
 features/                         # cached embeddings (created by Section 4)
-results/                          # CSV/JSON tables used in the report
-figures/                          # report figures (300 dpi PNG)
+results/                          # CSV/JSON tables used in the report (not committed)
+figures/                          # report figures (300 dpi PNG, not committed)
 ```
 
 ## Reproduce
