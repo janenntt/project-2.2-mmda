@@ -33,7 +33,7 @@ figures/                          # report figures (300 dpi PNG, not committed)
    ```
 3. **Run the notebook** top to bottom:
    ```bash
-   jupyter nbconvert --to notebook --execute --inplace project2.2_implementation.ipynb --ExecutePreprocessor.timeout=-1
+   jupyter nbconvert --to notebook --execute --inplace project2.2.ipynb --ExecutePreprocessor.timeout=-1
    ```
    * Section 4 downloads both encoders from Hugging Face and caches embeddings to `features/`
      (≈ 1 h on a 2-core CPU, a few minutes on a GPU; it is skipped when the cache exists. Set `RECOMPUTE = True` to rebuild).
